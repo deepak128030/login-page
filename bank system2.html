@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            background-color: silver;
+            
+        }
+        .regform{
+            background: white;
+            box-sizing: border-box;
+            width: 600px;
+            height: 450px;
+            padding-top: 50px;
+            padding-left: 40px;
+            margin-left: 350px;
+            margin-top: 50px;
+         }
+         input{
+             display: block;
+             margin: 5px;
+             width: 200px;
+             outline: none;
+             border-bottom: solid 1px;
+             border-top: none;
+             border-left: none;
+             border-right: none;
+             
+         }
+         label{
+
+            font-family: Arial, Helvetica, sans-serif;
+             font-size: 15px;
+             color: indigo;
+             margin: 5px;
+            
+         }
+         .bt{
+            display: flex;
+         }
+         input[type="button"]{
+             background-color: rgb(26, 199, 147);
+             width: 70px;
+             font-size: 15px;
+             cursor: pointer;
+         }
+         input[type="reset"]{
+             background-color: gray;
+             width: 70px;
+             font-size: 15px;
+             cursor: pointer;
+         }
+         p{
+             font-size: 10px;
+             margin-top: 10px;
+             color: silver;
+         }
+         .bt2{
+             display: flex;
+         }
+
+    </style>
+</head>
+<body>
+    <div class="regform">
+        <form action="">
+          <div class="bt2"> <label for="Full Name">Full Name</label> <P>should be same as passbook</P></div> 
+            <input type="text">
+            <label for="email">Email</label>
+            <input type="email">
+            <label for="dob">Date Of Birth</label>
+            <input type="date" name="dob" id="dob">
+            <label for="an">Account Number</label>
+            <input type="text">
+            <label for="Password">Password</label>
+            <input type="password" name="Password" id="password">
+            <label for="Confirm password">Confirm Password</label>
+            <input type="password" name="Confirm Password" id="Confirm Password">
+           <div class="bt">
+            <input type="button" value="register">
+            <input type="reset" value="reset">
+        </div>
+        </form>
+        <p>If you have alredy registerd <a href="file:///C:/Users/dmane/Desktop/html/Project1/Project1/bank%20SYstem.html?" target="_blank">login here</a> </p>
+    </div>
+</body>
+</html>
